@@ -28,11 +28,24 @@
             </select>
         </div>
         <div>
-            <label for="contract">Você leu os termos do contrato?</select>
-                <select name="contract">
-                    <option value="sim">Sim</option>
-                    <option value="nao" selected>Não</option>
-                </select>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+        <div>
+            <label for="items">Selecione os itens desejados</label>
+            <select name="items" multiple>
+                <option value="maca">Maçã</option>
+                <option value="feijao">Feijão</option>
+                <option value="banana">Banana</option>
+                <option value="azeitona">Azeitona</option>
+            </select>
+        </div>
+        <div>
+            <label for="comments">O que você achou do post?</label>
+            <textarea name="comments"></textarea>
         </div>
         <input type="submit" value="Enviar" />
 
