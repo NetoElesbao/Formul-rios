@@ -47,6 +47,30 @@
             <label for="comments">O que você achou do post?</label>
             <textarea name="comments"></textarea>
         </div>
+        <div>
+            <fieldset>
+                <legend>Preencha com os seus dados</legend>
+                <label for="firstname">Primeiro nome:</label>
+                <input type="text" name="firstname" />
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname" />
+            </fieldset>
+        </div>
+        <div>
+            <label for="flavor">Escolha o seu sabor:</label>
+            <input type="text" list="flavors" name="flavor">
+
+            <datalist id="flavors">
+                <option value="Morango"></option>
+                <option value="Baunilha"></option>
+                <option value="Flocos"></option>
+                <option value="Chocolate"></option>
+            </datalist>
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" name="password">
+        </div>
         <input type="submit" value="Enviar" />
 
     </form>
